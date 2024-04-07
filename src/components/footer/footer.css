@@ -1,0 +1,93 @@
+.foot {
+    width: 100%;
+    padding: 30px;
+}
+
+.logo-image {
+    width: 160px;
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    text-align: center;
+    color: #252D5F;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item {
+    font-size: 20px;
+    color: black;
+}
+
+.social {
+    width: 200px;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copy {
+    color: #252D5F;
+    margin-top: 12px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info-item {
+    width: 20%;
+    font-size: 12px;
+}
+
+.methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.payments {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+@media(max-width: 680px) {
+    .logos {
+        flex-direction: column;
+    }
+
+    .info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-item {
+        width: 40%;
+        font-size: 12px;
+    }
+    .methods {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
