@@ -90,4 +90,8 @@
         align-items: center;
         text-align: center;
     }
+
+    .separator {
+        display: none;
+    }
 }

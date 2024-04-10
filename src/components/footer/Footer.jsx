@@ -31,7 +31,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr />
+                <hr className='separator' />
                 <div className='info'>
                     <div className='info-item'>
                         <p>Como funciona</p>
