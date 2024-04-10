@@ -48,7 +48,14 @@
     align-items: center;
 }
 
+.active {
+    color: white;
+}
+
 @media (max-width: 690px) {
+    .active {
+        color: #FF9200;
+    }
     .personal-items {
         font-size: 50px;
     }

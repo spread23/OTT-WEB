@@ -21,8 +21,9 @@ export const LookingForPersonal = () => {
                     <ul className={`personal-buttons ${isOpen && 'open'}`}>
                         <li className='personal-items-button'>
                             <NavLink
+                                className={({ isActive }) => (isActive ? 'active button-personal' : 'button-personal')}
                                 onClick={() => setIsOpen(!isOpen)} 
-                                className='button-personal' to='candidates'>Mis candidatos <FaAddressCard className='personal-items'/>
+                                to='candidates'>Mis candidatos <FaAddressCard className='personal-items'/>
                             </NavLink>
                         </li>
                         <li className='personal-items-button'>
