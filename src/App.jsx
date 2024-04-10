@@ -17,6 +17,12 @@ import { Chatbot } from './components/chatbot/Chatbot'
 import { Profile } from './components/profile/Profile'
 import { Home } from './components/home/Home'
 
+//importing sub-routes-components for personal
+import { Candidates } from './components/candidates/Candidates'
+import { ChatbotPersonal } from './components/chatbotPersonal/ChatbotPersonal'
+import { ProfilePersonal } from './components/profilePersonal/ProfilePersonal'
+import { HomePersonal } from './components/homePersonal/HomePersonal'
+
 export const App = () => {
     return (
         <>
@@ -33,7 +39,12 @@ export const App = () => {
                     <Route path='profile' element={<Profile />}></Route>
                     <Route path='home' element={<Home />}></Route>
                 </Route>
-                <Route path='/lookingForPersonal' element={<LookingForPersonal />}></Route>
+                <Route path='/lookingForPersonal/*' element={<LookingForPersonal />}>
+                    <Route path='candidates' element={<Candidates />}></Route>
+                    <Route path='chatbot' element={<ChatbotPersonal />}></Route>
+                    <Route path='profile' element={<ProfilePersonal />}></Route>
+                    <Route path='home' element={<HomePersonal />}></Route>
+                </Route>
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/*' element={<Navigate to='/' />}></Route>
 

@@ -1,0 +1,30 @@
+.plans-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.title-plans {
+    margin: 20px;
+}
+
+.description-plans {
+    color: gray;
+}
+
+.button-plans {
+    margin: 10px;
+    padding: 15px;
+    background-color: #252D5F;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button-plans:hover {
+    background-color: #FF5C78;
+}

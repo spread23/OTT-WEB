@@ -55,10 +55,6 @@
     .job-buttons {
         width: 100%;
         position: absolute;
-        left: 0;
-    }
-    .job-buttons {
-        position: absolute;
         top: 390px;
         left: 0;
         background-color: white;
