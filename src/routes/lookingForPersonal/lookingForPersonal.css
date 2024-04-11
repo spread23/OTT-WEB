@@ -63,7 +63,7 @@
         width: 100%;
         position: absolute;
         top: 390px;
-        left: 0;
+        left: -20px;
         background-color: white;
         display: flex;
         flex-direction: column;
