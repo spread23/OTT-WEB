@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .container-profile p {
@@ -117,7 +118,7 @@
     padding: 8px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 870px) {
     .container-profile {
         display: flex;
         flex-direction: column;
