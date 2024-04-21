@@ -61,11 +61,16 @@
     border-radius: 8px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 680px) {
     .form-create {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .form-create-vacant {
+        width: 300px;
+        font-size: 15px;
     }
 }
