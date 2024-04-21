@@ -1,0 +1,23 @@
+.profile-personal-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-personal-container a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: gray;
+    margin: 20px;
+}
+
+.over-profile {
+    background-color: #FF5C78 !important;
+}
