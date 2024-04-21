@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    margin: 12px;
+}
+
+thead {
+    background-color: rgb(203, 212, 209);
+}
+
+td {
+    color: gray;
+}
+
+.vacant-status-red {
+    background-color: rgb(223, 15, 15);
+    padding: 8px;
+    color: white;
+}
+
+.vacant-status-green {
+    background-color: rgb(25, 168, 25);
+    padding: 8px;
+    color: white;
+}
+
+td strong {
+    color: #252D5F;
+}
+
+.btn-vacant {
+    background-color: #FF5C78;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.vacant-option {
+    border: none;
+}
