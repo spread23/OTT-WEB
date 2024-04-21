@@ -3,6 +3,9 @@ import React from 'react'
 import './createVacants.css'
 
 export const CreateVacants = () => {
+    const onSubmit = (e) => {
+        e.preventDefault()
+    }
     return (
         <>
             <div className='create-vacant-container'>
@@ -10,7 +13,7 @@ export const CreateVacants = () => {
                     <h2 className='title-create-vacant'>
                         Encuentra el talento que necesitas para tu proyecto
                     </h2>
-                    <form className='form-create'>
+                    <form onSubmit={onSubmit} className='form-create'>
                         <div className='form-input-create'>
                             <label htmlFor="name">Nombre de la vacante <strong>*</strong></label>
                             <input type="text" name='name' placeholder='de que trata la vacante...' />

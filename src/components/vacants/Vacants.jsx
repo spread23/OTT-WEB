@@ -12,7 +12,7 @@ export const Vacants = () => {
                             <th>Nombre</th>
                             <th>Estatus</th>
                             <th>Aplicantes</th>
-                            <th>Fecha de publicacion</th>
+                            <th>Fecha</th>
                             <th></th>
                             <th></th>
                         </tr>

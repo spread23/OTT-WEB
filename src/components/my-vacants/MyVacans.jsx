@@ -14,7 +14,7 @@ export const MyVacants = () => {
                         </div>
                         <div className='status-vacant'>
                             <h6 className='title-status'>Status</h6>
-                            <p className='status-color'>Convocatoria abierta</p>
+                            <p className='status-color-red'>Convocatoria abierta</p>
                         </div>
                         <div className='info-vacant'>
                             <div className='info-aplicantes'>
@@ -38,7 +38,7 @@ export const MyVacants = () => {
                         </div>
                         <div className='status-vacant'>
                             <h6 className='title-status'>Status</h6>
-                            <p className='status-color'>Convocatoria abierta</p>
+                            <p className='status-color-red'>Convocatoria abierta</p>
                         </div>
                         <div className='info-vacant'>
                             <div className='info-aplicantes'>
@@ -62,7 +62,7 @@ export const MyVacants = () => {
                         </div>
                         <div className='status-vacant'>
                             <h6 className='title-status'>Status</h6>
-                            <p className='status-color'>Convocatoria abierta</p>
+                            <p className='status-color-green'>Convocatoria abierta</p>
                         </div>
                         <div className='info-vacant'>
                             <div className='info-aplicantes'>
