@@ -18,8 +18,8 @@ export const CreateVacants = () => {
 
                         <div className='form-input-create'>
                             <label htmlFor="place">Desde que lugar buscas el talento <strong>*</strong></label>
-                            <input type="text" name='place' placeholder='pais...' />
-                            <input type="text" name='place' placeholder='ciudad...' />
+                            <input className='place-create' type="text" name='place' placeholder='pais...' />
+                            <input className='place-create' type="text" name='place' placeholder='ciudad...' />
                         </div>
 
                         <div className='form-input-create'>

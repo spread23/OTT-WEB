@@ -38,19 +38,19 @@
     margin: 20px;
 }
 
-.form-input-create-check {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 .form-input-create label {
     color: #252D5F;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px;
 }
 
 .form-input-create strong {
     color: #FF5C78;
+}
+
+.place-create {
+    margin: 10px;
 }
 
 .btn-form-create {
@@ -71,6 +71,5 @@
 
     .form-create-vacant {
         width: 300px;
-        font-size: 15px;
     }
 }
