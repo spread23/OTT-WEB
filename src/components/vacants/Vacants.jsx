@@ -23,8 +23,8 @@ export const Vacants = () => {
                             <td className='vacant-status-red'>Convocatoria abierta</td>
                             <td>14 talentos</td>
                             <td>19/07/2022</td>
-                            <td><button className='btn-vacant'>Aplicar a la vacante</button></td>
-                            <td><button className='vacant-option'>...</button></td>
+                            <button className='btn-vacant'>Aplicar a la vacante</button>
+                            <button className='vacant-option'>...</button>
                         </tr>
 
                         <tr>
@@ -32,8 +32,8 @@ export const Vacants = () => {
                             <td className='vacant-status-green'>Convocatoria abierta</td>
                             <td>14 talentos</td>
                             <td>19/07/2022</td>
-                            <td><button className='btn-vacant'>Aplicar a la vacante</button></td>
-                            <td><button className='vacant-option'>...</button></td>
+                            <button className='btn-vacant'>Aplicar a la vacante</button>
+                            <button className='vacant-option'>...</button>
                         </tr>
 
                         <tr>
@@ -41,8 +41,8 @@ export const Vacants = () => {
                             <td className='vacant-status-red'>Convocatoria abierta</td>
                             <td>14 talentos</td>
                             <td>19/07/2022</td>
-                            <td><button className='btn-vacant'>Aplicar a la vacante</button></td>
-                            <td><button className='vacant-option'>...</button></td>
+                            <button className='btn-vacant'>Aplicar a la vacante</button>
+                            <button className='vacant-option'>...</button>
                         </tr>
                     </tbody>
                 </table>

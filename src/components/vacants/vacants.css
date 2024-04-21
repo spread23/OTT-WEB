@@ -43,8 +43,31 @@ td strong {
     border: none;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 500px) {
+    th, td {
+        padding: 5px;
+        margin: 5px;
+    }
+
     table {
-        width: 150px;
+        width: 400px;
+    }
+
+    thead {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    tr button {
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
