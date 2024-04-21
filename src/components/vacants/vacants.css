@@ -42,3 +42,9 @@ td strong {
 .vacant-option {
     border: none;
 }
+
+@media (max-width: 690px) {
+    table {
+        width: 150px;
+    }
+}
